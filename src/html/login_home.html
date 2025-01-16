@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../css/login_home.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="login-container">
+        <h2>Login :)</h2>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="email">Nome de Usuário (E-mail):</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required />
+                <span class="error" id="emailError"></span>
+            </div>
+            <div class="form-group">
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" placeholder="Digite sua senha" required />
+                <span class="error" id="passwordError"></span>
+            </div>
+            <button type="submit" id="loginButton">Entrar</button>
+            <span class="success" id="successMessage"></span>
+        </form>
+    </div>
+
+    <script src="../js/login_home.js"></script>
+</body>
+
+</html>
